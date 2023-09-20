@@ -1,0 +1,46 @@
+__________________Trello__Used tools and frameworks_______________________________
+
+
+Rest-Assured
+Maven repository
+TestNG
+#Requirements
+In order to utilise this project you need to create a Maven project in Eclipse IDE
+
+
+_____________________Main features____________________________
+Hybrid framework to test automation Webservices. It is keyword-driven and data-driven framework. So, you can separate testing data in Excel sheet with predefined schema and using some keywords inside Excel sheet you can validate the returned response body, headers and cookies.
+Supports both REST and SOAP webservices testing.
+All classes and methods are implemented in Java with Maven repository to include all dependencies needed. REST-Assured is used to offer a friendly DSL (Domain specific Languages) that describes a connection to an HTTP endpoint and expected results.
+Utilizes the capabilities of TestNG such as Data provider annotation to separate test data in external file and flexible test suites configuration and management. Also, TestNG generates 2 types of reports, HTML and XML reports. The HTML reports are very descriptive with good statistics and the JUnit XML reports that can be integrated with Jenkins after test execution to have summary status of each deployment.
+more details you can check Sample_2 sheet in Excel test data.  
+
+
+
+ In this maven project you have to setup the project after that create some maven dependencies in POM.xl file
+through maven repository.After that installed those dependencies in our project and use it.
+
+
+
+
+
+
+for generating extent report you have to the dependency in order to make a report so go to google and download extent report dependency and copy these dependencyin POM.xml
+## Concept Included
+
+Parallel test runs
+Dependency injection
+Page Object pattern
+Common web page interaction methods
+Externalised test configuration
+Commonly used test utility classes
+Simple security tests
+## Extent Reporting//Report
+
+
+Reporting
+Reports for each module are written into their respective /target directories after a successful run
+
+For Extentreport  -- C:\Users\mohdtoukeer\eclipse-workspace\assignmentRest\reports\ExtentReports.html
+And we can also run this file with the help of BathcFile.bat
+My project Report  is present in this link.
